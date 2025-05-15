@@ -43,14 +43,14 @@ const checkGuess = () => {
 
 const restartGame = () => {
   score = 20;
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  const randomNumber = Math.ceil(Math.random() * 20);
   displayMessage("Start guessing...");
-  document.querySelector(".score").textContent = score;
-  document.querySelector(".number").textContent = "?";
+  scoreSpan.innerHTML = score;
+  number.innerHTML = "?";
   document.querySelector(".guess").value = "";
 
-  document.querySelector("body").style.backgroundColor = "#222";
-  document.querySelector(".number").style.width = "15rem";
+  body.style.backgroundColor = "#222";
+  number.style.width = "15rem";
 };
 
 btnCheck.addEventListener("click", checkGuess);

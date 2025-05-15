@@ -7,7 +7,7 @@ This mini project is ideal for practicing **DOM manipulation**, working with **e
 
 ## 🌐 Live Demo
 
-https://dentist-booking-site.vercel.app/
+https://guess-my-number-sandy.vercel.app/
 
 ## 💡 Features
 
@@ -38,3 +38,4 @@ To run the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/BaharAlekberova05/guess-my-number.git
+   ```
